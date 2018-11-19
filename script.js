@@ -36,7 +36,7 @@ function hilight() {
 	s.addEventListener('keyup', find, false);
 
 }
-
+//trying to shuffle....need to spend some time with this
 var list = document.getElementById("P3"),
 	button = document.getElementById("shuffle");
 function shuffle(items)
@@ -63,3 +63,4 @@ function shuffleNodes()
 	}
 }
 button.onclick = shuffleNodes;
+
